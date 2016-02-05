@@ -1,0 +1,110 @@
+		div.fiveways.step {
+			width: 1000px;
+			height: 800px;
+			color:#fff;
+			box-shadow: 10px 10px 5px #888;
+		}
+		div.fiveways.step:not(.active) span {
+			opacity: 0;
+		}
+		div.fiveways.step.active span {
+			opacity: 1;
+			-webkit-transition: 1s;
+			-moz-transition:    1s;
+			-ms-transition:     1s;
+			-o-transition:      1s;
+			transition:         1s;		
+		}
+		div.fiveways.step.active span.fiveways-1 {
+			-webkit-transition-delay: 2s;
+			-moz-transition-delay:    2s;
+			-ms-transition-delay:     2s;
+			-o-transition-delay:      2s;
+			transition-delay:         2s;
+		}
+		div.fiveways.step.active span.fiveways-2 {
+			-webkit-transition-delay: 4s;
+			-moz-transition-delay:    4s;
+			-ms-transition-delay:     4s;
+			-o-transition-delay:      4s;
+			transition-delay:         4s;
+		}
+		div.fiveways.step.active span.fiveways-3 {
+			-webkit-transition-delay: 6s;
+			-moz-transition-delay:    6s;
+			-ms-transition-delay:     6s;
+			-o-transition-delay:      6s;
+			transition-delay:         6s;
+		}
+		div.fiveways.step.active span.fiveways-4 {
+			-webkit-transition-delay: 8s;
+			-moz-transition-delay:    8s;
+			-ms-transition-delay:     8s;
+			-o-transition-delay:      8s;
+			transition-delay:         8s;
+		}
+		div.fiveways.step.active span.fiveways-5 {
+			-webkit-transition-delay: 10s;
+			-moz-transition-delay:    10s;
+			-ms-transition-delay:     10s;
+			-o-transition-delay:      10s;
+			transition-delay:         10s;
+		}
+		#fiveways-connect {
+			background-color: #E60B62
+		}
+		#fiveways-beactive {
+			background-color: #5FCADE
+		}
+		#fiveways-takenotice {
+			background-color: #97D552
+		}
+		#fiveways-keeplearning {
+			background-color: #F89C23
+		}
+		#fiveways-give {
+			background-color: #A21184
+		}
+		#fiveways-overview {
+			padding-left: 300px;
+		}
+#dying {
+	background: url(../images/regretsofthedying.jpg) no-repeat;
+}
+div.step.dying.active .fadein {
+	-webkit-transition-delay: 5s;
+	-moz-transition-delay:    5s;
+	-ms-transition-delay:     5s;
+	-o-transition-delay:      5s;
+	transition-delay:         5s;
+}
+	.dying {
+		height:600px;
+		width: 1200px;
+		padding-left:500px;
+
+	}
+.dying.top-5 {
+	padding: 20px 0;
+	height:900px;
+	padding-left: 0;
+	text-align: left;
+}
+.dying.top-5 div {
+	padding: 40px 0;
+}
+div.step.last.active .fadein {
+	-webkit-transition-delay: 3s;
+	-moz-transition-delay:    3s;
+	-ms-transition-delay:     3s;
+	-o-transition-delay:      3s;
+	transition-delay:         3s;
+}
+div.step.last.active .thankyou.fadein {
+	-webkit-transition-delay: 5s;
+	-moz-transition-delay:    5s;
+	-ms-transition-delay:     5s;
+	-o-transition-delay:      5s;
+	transition-delay:         5s;
+}
+

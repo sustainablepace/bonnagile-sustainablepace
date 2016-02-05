@@ -1,0 +1,12 @@
+	#pomodoro {
+		background: url(../images/tomato.png) no-repeat;
+		width: 3008px;
+		height: 2000px;
+	}
+	.pomodoro-label {
+		color: #eee;
+		font-size: 3.5em;
+text-shadow: 5px 5px 5px #000000;
+filter: dropshadow(color=#000000, offx=5, offy=5);
+	}
+

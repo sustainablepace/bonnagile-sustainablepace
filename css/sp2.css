@@ -1,0 +1,231 @@
+		.velocitycrunch .bar {
+			height: 50px;
+			color: #fff;
+			font-weight: bold;
+			margin-bottom: 20px;
+			box-shadow: 10px 10px 5px #888;
+		}		
+ 		.velocitycrunch:not(.active) .bar {
+			width:0;
+		}
+		.velocitycrunch.active .bar.bar1 {
+			-webkit-transition: width 2s;
+			-moz-transition:    width 2s;
+			-ms-transition:     width 2s;
+			-o-transition:      width 2s;
+			transition:         width 2s;		
+		}
+		.velocitycrunch.active .bar {
+			-webkit-transition: width 2s;
+			-moz-transition:    width 2s;
+			-ms-transition:     width 2s;
+			-o-transition:      width 2s;
+			transition:         width 2s;		
+
+			-webkit-transition-delay: 4s;
+			-moz-transition-delay:    4s;
+			-ms-transition-delay:     4s;
+			-o-transition-delay:      4s;
+			transition-delay:         4s;
+		}
+		.velocitycrunch.active .bar1 {
+			background-color:green;
+			width: 700px; /* 700 * 5 / 5 */
+		}
+		.velocitycrunch.active .bar2 {
+			background-color:red;
+			width: 910px; /* 700 * 6.5 / 5 */
+		}
+		.velocitycrunch.active .bar3 {
+			background-color:red;
+			width: 840px; /* 700 * 6 / 5*/
+		}
+		.velocitycrunch.active .bar4 {
+			background-color:red;
+			width: 735px; /* 700 * 5.25 / 5*/
+		}
+		.velocitycrunch.active .bar5 {
+			background-color:red;
+			width: 630px; /* 700 * 4.5 / 5*/
+		}
+		.velocitycrunch table {
+			margin-top: 50px;
+		}
+		.velocitycrunch table td {
+			padding-right: 20px;
+		}
+
+
+		#overtimegermany.step .bar {
+			color: #fff;
+			font-weight: bold;
+			margin-bottom: 10px;
+			box-shadow: 5px 5px 5px #888;
+		}		
+
+		#overtimegermany.active .bar-ot-1 {
+			background-color:gray;
+			width: 866px; /* 900*38.5/40*/
+		}
+		#overtimegermany.active .bar-ot-2 {
+			background-color:gray;
+			width: 734px; /* 900*32.5/40*/
+		}
+		#overtimegermany.active .bar-ot-3 {
+			background-color:gray;
+			width: 383px; /* 900*17/40*/
+		}
+		#overtimegermany.active .bar-ot-4 {
+			background-color:gray;
+			width: 216px; /* 900*9.6/40*/
+		}
+		#overtimegermany.active .bar-ot-5 {
+			background-color:gray;
+			width: 182px; /* 900*8.1/40*/
+		}
+		#overtimegermany.active .bar-ot-6 {
+			background-color:gray;
+			width: 151px; /* 900*6.7/40*/
+		}
+		#overtimegermany.active .bar-ot-7 {
+			background-color:gray;
+			width: 119px; /* 900*5.3/40*/
+		}
+		#overtimegermany.active .bar-ot-8 {
+			background-color:gray;
+			width: 70px; /* 900*3.1/40*/
+		}
+		#overtimegermany.active .bar-ot-9 {
+			background-color:gray;
+			width: 61px; /* 900*2.7/40*/
+		}
+
+ 		#overtimegermany:not(.active) .bar span {
+			opacity:0;
+		}
+ 		#overtimegermany:not(.active) .bar {
+			width:0;
+		}
+ 		#overtimegermany.active .bar span {
+			opacity:1;
+			padding-left:10px;
+			-webkit-transition: 2s;
+			-moz-transition:    2s;
+			-ms-transition:     2s;
+			-o-transition:      2s;
+			transition:         2s;		
+
+			-webkit-transition-delay: 4s;
+			-moz-transition-delay:    4s;
+			-ms-transition-delay:     4s;
+			-o-transition-delay:      4s;
+			transition-delay:         4s;
+		}
+		#overtimegermany.active .bar {
+			-webkit-transition: width 2s;
+			-moz-transition:    width 2s;
+			-ms-transition:     width 2s;
+			-o-transition:      width 2s;
+			transition:         width 2s;		
+
+			-webkit-transition-delay: 2s;
+			-moz-transition-delay:    2s;
+			-ms-transition-delay:     2s;
+			-o-transition-delay:      2s;
+			transition-delay:         2s;
+		}
+		#overtimegermany .label-ot {
+			font-size:0.6em;		
+		}
+		#overtimegermany .bar {
+			font-size:0.4em;		
+		}
+
+		.ford {
+			width: 1300px;
+			height: 1015px;
+		}
+		.ford blockquote {
+			margin: 250px auto 0;
+			color: #222;
+		}
+		.ford:not(.active) .ford-fadein-1, .ford:not(.active) .ford-fadein-2 {
+			opacity: 0;
+		}
+		.ford div {
+			width: 70%;
+			margin: 250px auto 0;
+			text-align: center;
+		}
+		.ford.active .ford-fadein-1 {
+			font-weight: bold;
+			opacity: 1;
+			-webkit-transition: opacity 2s;
+			-moz-transition:    opacity 2s;
+			-ms-transition:     opacity 2s;
+			-o-transition:      opacity 2s;
+			transition:         opacity 2s;		
+
+			-webkit-transition-delay: 4s;
+			-moz-transition-delay:    4s;
+			-ms-transition-delay:     4s;
+			-o-transition-delay:      4s;
+			transition-delay:         4s;
+		}
+		.ford.active .ford-fadein-2 {
+			font-size: 1.4em;
+			font-weight: bold;
+			opacity: 1;
+			-webkit-transition: opacity 2s;
+			-moz-transition:    opacity 2s;
+			-ms-transition:     opacity 2s;
+			-o-transition:      opacity 2s;
+			transition:         opacity 2s;		
+
+			-webkit-transition-delay: 7s;
+			-moz-transition-delay:    7s;
+			-ms-transition-delay:     7s;
+			-o-transition-delay:      7s;
+			transition-delay:         7s;
+		}
+		div.ford blockquote > p {
+			font-size: 1.2em;
+		}
+		div.step.system {
+			width: 1200px;
+		}
+
+		div.step.euflag {
+			background: url(../images/europe.png) no-repeat;
+			width: 1535px;
+			height: 1024px;
+		}
+
+		div.eu.step {
+			color: yellow;
+			font-size: 5em;
+			text-align: center;
+		}
+
+
+	#overtime_defects {
+		background: url(../images/overtime_defects.png) no-repeat;
+		width: 1050px;
+		height: 800px;
+	}
+#overtimeprod1 {
+		background: url(../images/overtime_prod_1.png) no-repeat;
+		width: 1050px;
+		height: 800px;
+	}
+	#overtimeprod2 {
+		background: url(../images/overtime_prod_2.png) no-repeat;
+		width: 1050px;
+		height: 800px;
+	}
+	#overtimeprod3 {
+		background: url(../images/overtime_prod_3.png) no-repeat;
+		width: 1050px;
+		height: 800px;
+	}
+
